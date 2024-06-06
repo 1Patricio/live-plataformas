@@ -6,7 +6,7 @@ services:
         ports:
             - 80:80
         volumes:
-            - C:/Users/Anderson/Desktop/aula-plataformas/htdocs:/usr/local/apache2/htdocs
+            - ./htdocs:/usr/local/apache2/htdocs
         networks:
             - default
 networks:
